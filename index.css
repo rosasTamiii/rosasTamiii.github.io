@@ -23,9 +23,15 @@
       h1 {
         font-size: 50px;
         position: absolute;
-        top: 170px;
+        top: 120px;
         color: white;
-    }
+      }
+     @media screen and (max-width: 767px) { /* Para pantallas de celulares */
+      h1 {
+          font-size: 30px; /* Reducir el tamaño de la fuente */
+          top: 60px;       /* Ajustar la posición superior */
+      }
+     }
 
       .night {
         position: fixed;
